@@ -20,7 +20,7 @@ def test_evmosToEth(input, output):
 @pytest.mark.parametrize(
     'input, output',
     [
-        ('0xe7e3654bc1ea915e7216d8193ef8dd7d5dae987f2', 'evmos1ul3k2j7pa2g4uuskmqvna7xa04w6axrl85alz5'),
+        ('0xe7e3654bc1ea915e7216d8193ef8dd7d5dae987f', 'evmos1ul3k2j7pa2g4uuskmqvna7xa04w6axrl85alz5'),
         ('cosmos1wze8mn5nsgl9qrgazq6a92fvh7m5e6psjcx2du', None),
         ('evmos1ul3k2j7pa2g4uuskmqvna7xa04w6axrl85alz5', None),
         ('', None),
